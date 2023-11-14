@@ -1,15 +1,8 @@
-<script>
-    import './styles.css';
+<script lang="ts">
+import '../app.css';
+import './styles.css';
 </script>
 
-<div class="app">
+<div class="flex">
     <slot />
 </div>
-
-<style>
-    .app {
-        display: flex;
-        flex-direction: column;
-        min-height: 100svh;
-    }
-</style>
