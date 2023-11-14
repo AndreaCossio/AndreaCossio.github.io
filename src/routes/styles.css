@@ -12,3 +12,7 @@ body {
     margin: 0;
     background-color: black;
 }
+
+.fullsvh {
+    min-height: 100svh;
+}
