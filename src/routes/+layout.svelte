@@ -1,8 +1,9 @@
 <script lang="ts">
-import '../app.css';
+import "../app.postcss";
+import "../app.postcss";
 import './styles.css';
 </script>
 
 <div class="flex">
-    <slot />
+    <slot></slot>
 </div>
